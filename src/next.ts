@@ -1,4 +1,4 @@
 let numberType: number = 123;
 let stringType: string = '123';
-stringType.
+let booleanType: boolean = true;
 console.log(numberType);
