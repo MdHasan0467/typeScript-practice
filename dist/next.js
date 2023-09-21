@@ -1,2 +1,3 @@
 "use strict";
-console.log('Hello world!');
+const numberType = 123;
+console.log(numberType);
