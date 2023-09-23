@@ -9,6 +9,7 @@ type JuniorDeveloper2 = NoobDeveloper2 & {
 
 type SeniorDeveloper = JuniorDeveloper2 & {
     leaderShipExperience: number;
+    leaderShipLevel : 'Junior' | 'Mid' | 'Senior';
 }
 
 
@@ -28,5 +29,6 @@ const newDeveloper5 : NoobDeveloper2 | JuniorDeveloper2 | SeniorDeveloper = {
     name: 'Milon Miya',
     expertise : 'TypeScript',
     experience : 2,
-    leaderShipExperience : 1
+    leaderShipExperience : 1,
+    leaderShipLevel: "Junior"
 }
