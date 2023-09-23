@@ -18,3 +18,11 @@ const person2: PersonType = {
     profession: 'worker',
     address: 'Dubai'
 }
+
+
+type PersonMarriedType = boolean;
+const isPersonMarried: PersonMarriedType = false;
+
+
+type CourseType = string;
+const courseName: CourseType = 'TypeScript';
