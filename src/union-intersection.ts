@@ -12,10 +12,12 @@ type SeniorDeveloper = JuniorDeveloper2 & {
     leaderShipLevel : 'Junior' | 'Mid' | 'Senior';
 }
 
-
 const newDeveloper3 : NoobDeveloper2 | JuniorDeveloper2 = {
     name: 'Mojnu Miya'
 }
+
+
+
 
 
 const newDeveloper4 : NoobDeveloper2 | JuniorDeveloper2 = {
